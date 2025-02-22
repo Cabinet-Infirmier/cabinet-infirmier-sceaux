@@ -1,0 +1,19 @@
+.hero {
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+}
+
+.heroContainer {
+  max-width: 1048px;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.heroImg {
+  object-fit: cover;
+  width: 500px;
+  height: 320px;
+}
