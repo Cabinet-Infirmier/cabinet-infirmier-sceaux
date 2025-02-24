@@ -26,11 +26,11 @@
 }
 
 .nav a:hover {
-  color: pink;
+  color: #e4bbbb;
   transition: 200ms;
 }
 
 /* CSS Modules feature */
 .nav a:global(.active) {
-  color: pink;
+  color: #e4bbbb;
 }
