@@ -8,7 +8,7 @@ function Hero() {
     <div className={styles.hero}>
       <div className={styles.container}>
         <div>
-          <h1>Cabinet d infirmières</h1>
+          <h1>Cabinet d&apos;infirmières</h1>
           <h2>Sceaux</h2>
 
           <div>
