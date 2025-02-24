@@ -1,0 +1,19 @@
+.nurse {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nurse img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.nurse p {
+  font-size: 1.2em;
+  color: #d78b8b;
+  font-weight: bold;
+}
