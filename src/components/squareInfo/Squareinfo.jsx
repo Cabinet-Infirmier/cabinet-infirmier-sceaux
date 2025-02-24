@@ -4,7 +4,7 @@ import Button from "../button/Button";
 export default function SquareInfo() {
   return (
     <div className={styles.squareInfo}>
-      <h3 className="pink">A PROPOS DE NOUS</h3>
+      <h3>A PROPOS DE NOUS</h3>
       <p>
         Le cabinet se compose de 4 infirmières diplômées d&apos;état réparties
         en 2 tournées, Il se trouve ausein du centre santé sport Robinson, où
