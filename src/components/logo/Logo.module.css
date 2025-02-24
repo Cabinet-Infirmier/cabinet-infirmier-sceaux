@@ -1,4 +1,11 @@
 .logo {
   text-transform: uppercase;
-  
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+}
+
+.logo img {
+  width: 4em;
+  margin: 15px;
 }
