@@ -1,0 +1,10 @@
+.bannerInfo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 10rem;
+}
+
+.bannerInfo div {
+  min-width: 397px;
+}
