@@ -35,10 +35,10 @@ function Hero() {
           </div>
           <Button>Prendre RDV</Button>
         </div>
+      </div>
 
-        <div>
-          <img className={styles.img} src={heroImage} alt="Hero" />
-        </div>
+      <div className={styles.containerImage}>
+        <img className={styles.img} src={heroImage} alt="Hero" />
       </div>
     </div>
   );
