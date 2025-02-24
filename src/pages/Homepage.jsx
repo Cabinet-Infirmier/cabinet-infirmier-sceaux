@@ -1,6 +1,6 @@
 import styles from "./Homepage.module.css";
 import Hero from "../components/hero/Hero";
-import SquareInfo from "../components/squareInfo/Squareinfo";
+import NurseTeam from "../components/nurse-team/NurseTeam";
 import iconCalendar from "../assets/icons/icon-calendary.png";
 import iconMoney from "../assets/icons/icon-money.png";
 
@@ -8,7 +8,7 @@ function Homepage() {
   return (
     <div>
       <Hero />
-      <SquareInfo />
+      <NurseTeam />
       <div className={styles.bannerInfo}>
         <div>
           <img src={iconCalendar} alt="Calendrier icon" />

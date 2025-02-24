@@ -1,38 +1,39 @@
-.containerHero {
-  padding: 2rem 0 2rem 0;
+.hero {
+  margin-top: 3em;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-.container {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   text-align: center;
+  line-height: 22px;
+  color: #575555;
 }
 
-.heroImage {
-  height: 537px;
-  width: auto;
-  position: relative;
-}
-.heroImage img {
-  top: 0;
-  left: 0;
+.hero h2 {
+  color: #e4bbbb;
 }
 
-.containerIcons {
+.container {
+  max-width: 1048px;
+  width: 90%;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
-  margin: 1rem 0 1rem 0;
+  align-items: center;
 }
 
-.containerIcons div {
+.img {
+  object-fit: cover;
+  width: 500px;
+  height: 320px;
+}
+
+.adress {
+  font-weight: bold;
+}
+
+.contact {
+  color: #d78b8b;
   display: flex;
-}
-
-.containerIcons div img {
-  margin-right: 1rem;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
