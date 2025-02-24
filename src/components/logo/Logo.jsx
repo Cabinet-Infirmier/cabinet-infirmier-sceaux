@@ -7,7 +7,7 @@ function Logo() {
     <Link to="/">
       <div className={styles.logo}>
         <img src={logo} alt="logo cabinet" />
-        <div className={styles.logo}>Cabinet Infirmier</div>
+        <h1>Cabinet Infirmier</h1>
       </div>
     </Link>
   );
