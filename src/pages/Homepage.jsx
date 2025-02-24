@@ -1,11 +1,11 @@
 import Hero from "../components/hero/Hero";
-import Navbar from "../components/navbar/Navbar";
+import NurseTeam from "../components/nurse-team/NurseTeam";
 
 function Homepage() {
   return (
     <div>
-      <Navbar />
       <Hero />
+      <NurseTeam />
     </div>
   );
 }
