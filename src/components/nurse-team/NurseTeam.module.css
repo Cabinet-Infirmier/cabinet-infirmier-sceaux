@@ -1,11 +1,19 @@
-.nurses h2 {
-  text-align: center;
-  color: #575555;
-  text-transform: uppercase;
-  font-size: 1.2em;
+.nurses {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.nurses h2 {
+  color: #575555;
+  text-transform: uppercase;
+  font-size: 1.2em;
 }
