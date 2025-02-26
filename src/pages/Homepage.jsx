@@ -4,6 +4,7 @@ import MainInfo from "../components/squareInfo/Squareinfo";
 import NurseTeam from "../components/nurse-team/NurseTeam";
 import iconCalendar from "../assets/icons/icon-calendary.png";
 import iconMoney from "../assets/icons/icon-money.png";
+import Disclaimer from "../components/disclaimer/Disclaimer";
 
 function Homepage() {
   return (
@@ -27,6 +28,7 @@ function Homepage() {
           <p>Chèque</p>
         </div>
       </div>
+      <Disclaimer />
     </div>
   );
 }
