@@ -5,13 +5,14 @@ import NurseTeam from "../components/nurse-team/NurseTeam";
 import iconCalendar from "../assets/icons/icon-calendary.png";
 import iconMoney from "../assets/icons/icon-money.png";
 import Disclaimer from "../components/disclaimer/Disclaimer";
+import ServiceArea from "../components/serviceArea//serviceArea";
 
 function Homepage() {
   return (
     <div>
       <Hero />
       <MainInfo />
-      <NurseTeam />
+      <ServiceArea />
       <div className={styles.bannerInfo}>
         <div>
           <img src={iconCalendar} alt="Calendrier icon" />
@@ -28,6 +29,7 @@ function Homepage() {
           <p>Chèque</p>
         </div>
       </div>
+      <NurseTeam />
       <Disclaimer />
     </div>
   );
