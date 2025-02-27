@@ -6,6 +6,7 @@ import iconCalendar from "../assets/icons/icon-calendary.png";
 import iconMoney from "../assets/icons/icon-money.png";
 import Disclaimer from "../components/disclaimer/Disclaimer";
 import ServiceArea from "../components/serviceArea//serviceArea";
+import Services from "../components/services/Services";
 
 function Homepage() {
   return (
@@ -13,6 +14,7 @@ function Homepage() {
       <Hero />
       <MainInfo />
       <ServiceArea />
+      <Services />
       <div className={styles.bannerInfo}>
         <div>
           <img src={iconCalendar} alt="Calendrier icon" />

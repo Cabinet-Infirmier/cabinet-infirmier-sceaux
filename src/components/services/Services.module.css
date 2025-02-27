@@ -1,0 +1,17 @@
+.services {
+  text-align: center;
+  font-weight: bold;
+}
+
+.firstRow {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.secondRow {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
