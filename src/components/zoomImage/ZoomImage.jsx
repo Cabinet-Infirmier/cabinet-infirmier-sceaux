@@ -57,7 +57,7 @@ export default function ZoomImage({ ...attributes }) {
   }, [imageRef, scale]);
 
   return (
-    <div className={styles.zooImage}>
+    <div className={styles.zoomImage}>
       <div className={styles.btn_container}>
         <button onClick={handleZoomIn} className={styles.btn}>
           +
@@ -70,8 +70,6 @@ export default function ZoomImage({ ...attributes }) {
         ref={imageRef}
         draggable={false}
         style={{
-          width: "40vw",
-          height: "auto",
           cursor: "move",
           transformOrigin: "top left",
           transform: `translate(${position.x}px, ${position.y}px) scale(${scale})`,
