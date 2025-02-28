@@ -1,11 +1,14 @@
 .zoomImage {
   background-color: #ffff;
-  border: 10px;
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
   position: relative;
+  overflow: hidden;
   width: 40vw;
-  height: 50vh;
+  min-width: 20rem;
+  height: 60vh;
+  min-height: 20rem;
 }
 
 .zoomImage img {
