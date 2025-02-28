@@ -1,22 +1,35 @@
 .zoomImage {
   background-color: #ffff;
-  border: 10px;
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
   position: relative;
+  overflow: hidden;
+  width: 40vw;
+  min-width: 20rem;
+  height: 60vh;
+  min-height: 20rem;
+}
+
+.zoomImage img {
+  object-fit: cover;
+  width: 60vw;
+  height: auto;
+  min-width: 10rem;
+  min-height: 10rem;
 }
 
 .btn_container {
   gap: 8px;
   background-color: #d78b8b;
-  border-radius: 15px 0 15px 0;
+  border-radius: 15px;
   position: absolute;
   z-index: 100;
 }
 
 .btn {
   border: none;
-
+  border-radius: 15px;
   color: #fff;
   background-color: #d78b8b;
   padding: 10px;
