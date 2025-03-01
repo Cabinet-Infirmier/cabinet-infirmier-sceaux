@@ -13,8 +13,9 @@ function Homepage() {
     <div>
       <Hero />
       <MainInfo />
-      <ServiceArea />
       <Services />
+      <ServiceArea />
+
       <div className={styles.bannerInfo}>
         <div>
           <img src={iconCalendar} alt="Calendrier icon" />

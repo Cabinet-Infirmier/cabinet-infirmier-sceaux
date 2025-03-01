@@ -1,17 +1,20 @@
 .services {
   text-align: center;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .firstRow {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .secondRow {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 20px;
 }
