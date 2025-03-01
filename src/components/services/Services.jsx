@@ -19,7 +19,7 @@ function Services() {
           <Service name="Vaccination" fileName="nurse-icon.svg" />
           <Service name="Pansements" fileName="nurse-icon.svg" />
           <Service name="Dossier de soins" fileName="nurse-icon.svg" />
-          <Service name="Chrte du patient" fileName="nurse-icon.svg" />
+          <Service name="Charte du patient" fileName="nurse-icon.svg" />
         </div>
         <Button>Voir les services</Button>
       </div>
