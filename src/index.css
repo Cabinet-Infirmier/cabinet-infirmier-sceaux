@@ -1,3 +1,20 @@
+@font-face {
+  font-family: "instrument";
+  src: url("/fonts/Instrument.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "istok";
+  src: url("/fonts/IstokWeb.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   padding: 0 4.8rem;
+}
+
+body {
+  font-family: "instrument", sans-serif;
 }
