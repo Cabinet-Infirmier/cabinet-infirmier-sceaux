@@ -3,12 +3,14 @@ import IconAddress from "../../assets/icons/icon-address.png";
 import MapImage from "../../assets/images/sector-map.png";
 import ZoomImage from "../zoomImage/ZoomImage";
 import styles from "../serviceArea/ServiceArea.module.css";
-import CabinetImage from "../../assets/images/cabinet-1.jpg";
+import CabinetImage from "/images/cabinet/cabinet-1.jpg";
+import Carousel from "../carousel/carousel";
 import Button from "../button/Button";
 
 export default function ServiceArea() {
   return (
     <div className={styles.ServiceArea}>
+      <Carousel />
       <div className={styles.Container}>
         <div className={styles.CabinetContainer}>
           <img
