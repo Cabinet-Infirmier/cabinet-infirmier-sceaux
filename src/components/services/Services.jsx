@@ -10,16 +10,22 @@ function Services() {
           <Service name="Soins infirmiers" fileName="nurse-icon.svg" />
           <Service
             name="Soins à domicile pour les patients dépendants"
-            fileName="nurse-icon.svg"
+            fileName="home-care.svg"
           />
-          <Service name="Gestion des traitements" fileName="nurse-icon.svg" />
+          <Service
+            name="Gestion des traitements"
+            fileName="treatment-management.svg"
+          />
         </div>
 
         <div className={styles.secondRow}>
-          <Service name="Vaccination" fileName="nurse-icon.svg" />
-          <Service name="Pansements" fileName="nurse-icon.svg" />
-          <Service name="Dossier de soins" fileName="nurse-icon.svg" />
-          <Service name="Charte du patient" fileName="nurse-icon.svg" />
+          <Service name="Vaccination" fileName="syringe-icon.svg" />
+          <Service name="Pansements" fileName="injury-icon.svg" />
+          <Service
+            name="Dossier de soins"
+            fileName="medical-history-icon.svg"
+          />
+          <Service name="Charte du patient" fileName="patient-charter.svg" />
         </div>
         <Button>Voir les services</Button>
       </div>
