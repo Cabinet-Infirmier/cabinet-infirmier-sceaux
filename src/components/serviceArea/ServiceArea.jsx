@@ -4,32 +4,39 @@ import MapImage from "../../assets/images/sector-map.png";
 import ZoomImage from "../zoomImage/ZoomImage";
 import styles from "../serviceArea/ServiceArea.module.css";
 import CabinetImage from "/images/cabinet/cabinet-1.jpg";
-import Carousel from "../carousel/carousel";
+import Modal from "../modal/Modal";
 import Button from "../button/Button";
+import { useState } from "react";
 
 export default function ServiceArea() {
+  const [openModal, setOpenModal] = useState(false);
+
   return (
-    <div className={styles.ServiceArea}>
-      <Carousel />
-      <div className={styles.Container}>
-        <div className={styles.CabinetContainer}>
+    <div className={styles.serviceArea}>
+      <Modal
+        className={styles.modal}
+        open={openModal}
+        onClose={() => setOpenModal(false)}
+      />
+      <div className={styles.container}>
+        <div className={styles.cabinetContainer}>
           <img
-            className={styles.CabinetImage}
+            className={styles.cabinetImage}
             src={CabinetImage}
             alt="Image du cabinet"
           />
         </div>
-        <div className={styles.ButtonContainer}>
-          <Button>Voir Plus</Button>
+        <div className={styles.buttonContainer}>
+          <Button onClick={() => setOpenModal(true)}>Voir Plus</Button>
         </div>
-        <div className={styles.Title}>
+        <div className={styles.title}>
           <img src={IconAddress} alt="Cabinet medical icône" />
           <h4>Secteur d’intervention à domicile</h4>
         </div>
       </div>
-      <div className={styles.Container}>
+      <div className={styles.container}>
         <ZoomImage src={MapImage} alt="Carte de zones de service" />
-        <div className={styles.Title}>
+        <div className={styles.title}>
           <img src={IconCabinet} alt="Cabinet medical icône" />
           <h4>Secteur d’intervention à domicile</h4>
         </div>
