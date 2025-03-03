@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "./Carousel.module.css";
 
-export default function Carousel() {
+export default function Carousel({ onClose }) {
   const images = ["cabinet-1.jpg", "cabinet-2.jpg", "cabinet-3.jpg"];
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [selectedImage, setSelectedImage] = useState(images[0]);
@@ -33,16 +33,23 @@ export default function Carousel() {
   };
 
   return (
-    <div className={styles.Container}>
+    <div className={styles.container}>
       <div className={styles.Carousel}>
+        <button onClick={onClose} className={styles.closeBtn}>
+          X
+        </button>
+        <button className={styles.previousBtn} onClick={previous}>
+          {"<"}
+        </button>
         <img
           src={`/images/cabinet/${selectedImage}`}
           alt="Cabinet images"
           className={loaded ? "loaded" : ""}
           onLoad={() => setLoaded(true)}
         />
-        <button onClick={previous}>{"<"}</button>
-        <button onClick={next}>{">"}</button>
+        <button className={styles.nextBtn} onClick={next}>
+          {">"}
+        </button>
       </div>
     </div>
   );
