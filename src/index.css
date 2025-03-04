@@ -1,3 +1,14 @@
 :root {
   padding: 0 4.8rem;
 }
+
+body {
+  font-family: "Istok Web", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Instrument Sans", serif;
+  font-style: normal;
+}
