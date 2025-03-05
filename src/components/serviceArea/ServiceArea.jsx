@@ -31,14 +31,14 @@ export default function ServiceArea() {
         </div>
         <div className={styles.title}>
           <img src={IconAddress} alt="Cabinet medical icône" />
-          <h4>Secteur d’intervention à domicile</h4>
+          <h4>Cabinet infirmier</h4>
         </div>
       </div>
       <div className={styles.container}>
         <ZoomImage src={MapImage} alt="Carte de zones de service" />
         <div className={styles.title}>
           <img src={IconCabinet} alt="Cabinet medical icône" />
-          <h4>Secteur d’intervention à domicile</h4>
+          <h4>Secteur d&apos;intervention à domicile</h4>
         </div>
       </div>
     </div>
