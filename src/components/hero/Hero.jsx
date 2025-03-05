@@ -1,10 +1,12 @@
 import styles from "./Hero.module.css";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import heroImage from "../../../public/images/nurses/Hero.png";
 import Button from "../button/Button";
 import { MessageSquare, Phone } from "lucide-react";
 
 function Hero() {
+  const navigate = useNavigate();
+
   return (
     <div className={styles.hero}>
       <div className={styles.container}>
@@ -38,7 +40,7 @@ function Hero() {
           </div>
 
           <NavLink to="/contact">
-            <Button>Prendre RDV</Button>
+            <Button onClick={() => navigate("/contact")}>Prendre RDV</Button>
           </NavLink>
         </div>
       </div>

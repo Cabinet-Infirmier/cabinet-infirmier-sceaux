@@ -12,3 +12,23 @@ h1 {
   font-family: "Instrument Sans", serif;
   font-style: normal;
 }
+
+h3 {
+  color: #d78b8b;
+  font-family: Istok Web;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34.55px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+h4 {
+  font-family: Istok Web;
+  font-weight: 700;
+  line-height: 34.55px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #575555;
+}
