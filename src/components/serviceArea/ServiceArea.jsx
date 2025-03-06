@@ -23,7 +23,7 @@ export default function ServiceArea() {
           <img
             className={styles.cabinetImage}
             src={CabinetImage}
-            alt="Image du cabinet"
+            alt="Cabinet"
           />
         </div>
         <div className={styles.buttonContainer}>

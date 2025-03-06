@@ -5,18 +5,12 @@
   flex-direction: column;
   position: relative;
   overflow: hidden;
-  width: 40vw;
-  min-width: 20rem;
-  height: 60vh;
-  min-height: 20rem;
+  width: 50vw;
 }
 
 .zoomImage img {
   object-fit: cover;
-  width: 60vw;
   height: auto;
-  min-width: 10rem;
-  min-height: 10rem;
 }
 
 .btn_container {
@@ -25,6 +19,7 @@
   border-radius: 15px;
   position: absolute;
   z-index: 100;
+  bottom: 20%;
 }
 
 .btn {
@@ -34,4 +29,10 @@
   background-color: #d78b8b;
   padding: 10px;
   cursor: pointer;
+}
+
+@media (max-width: 960px) {
+  .zoomImage {
+    width: 100%;
+  }
 }
