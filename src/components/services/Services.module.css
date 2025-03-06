@@ -1,11 +1,18 @@
 .services {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   font-weight: bold;
-  display: flex;
   justify-content: center;
   align-items: center;
   font-size: 0.8em;
   color: #575555;
+}
+
+.services h2 {
+  text-align: center;
+  font-size: 2em;
+  text-transform: uppercase;
 }
 
 .container {
@@ -15,7 +22,9 @@
 .firstRow {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
+  margin-top: 20px;
 }
 
 .secondRow {
@@ -23,4 +32,37 @@
   justify-content: space-around;
   flex-wrap: wrap;
   margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+@media (max-width: 1048px) {
+  .firstRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+
+    margin: 15px auto;
+    width: fit-content;
+  }
+
+  .secondRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+
+    margin: 15px auto;
+    width: fit-content;
+  }
+}
+
+@media (max-width: 720px) {
+  .firstRow {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .secondRow {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
 }

@@ -5,6 +5,7 @@ import Button from "../button/Button";
 function Services() {
   return (
     <div className={styles.services}>
+      <h2>Nos services</h2>
       <div className={styles.container}>
         <div className={styles.firstRow}>
           <Service name="Soins infirmiers" fileName="nurse-icon.svg" />
