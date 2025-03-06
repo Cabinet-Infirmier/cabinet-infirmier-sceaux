@@ -8,10 +8,17 @@
   font-family: "istok", sans-serif;
   font-size: 0.9em;
   line-height: 1.2em;
+  margin-top: 20px;
 }
 
 .container {
   max-width: 1048px;
   text-align: center;
   text-transform: uppercase;
+}
+
+@media (max-width: 960px) {
+  .disclaimer {
+    border-radius: 25px 25px 0 0;
+  }
 }
