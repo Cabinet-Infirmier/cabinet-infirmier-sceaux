@@ -40,8 +40,8 @@ function Navbar() {
             to="/"
             className={({ isActive }) =>
               isActive
-                ? "text-lg font-semibold text-[##e4bbbb] px-3 py-2"
-                : "text-lg font-semibold text-gray-900 gray-50 rounded-lg px-3 py-2 hover:bg-gray-50"
+                ? "text-lg text-[##e4bbbb] px-3 py-2"
+                : "text-lg text-gray-900 gray-50 rounded-lg px-3 py-2 hover:bg-gray-50"
             }
           >
             Accueil
@@ -50,8 +50,8 @@ function Navbar() {
             to="/services"
             className={({ isActive }) =>
               isActive
-                ? "text-lg font-semibold text-[##e4bbbb] px-3 py-2"
-                : "text-lg font-semibold text-gray-900 gray-50 rounded-lg px-3 py-2 hover:bg-gray-50"
+                ? "text-lg text-[##e4bbbb] px-3 py-2"
+                : "text-lg text-gray-900 gray-50 rounded-lg px-3 py-2 hover:bg-gray-50"
             }
           >
             Services
@@ -60,8 +60,8 @@ function Navbar() {
             to="/infirmieres"
             className={({ isActive }) =>
               isActive
-                ? "text-lg font-semibold text-[##e4bbbb] px-3 py-2"
-                : "text-lg font-semibold text-gray-900 gray-50 rounded-lg px-3 py-2 hover:bg-gray-50"
+                ? "text-lg text-[##e4bbbb] px-3 py-2"
+                : "text-lg text-gray-900 gray-50 rounded-lg px-3 py-2 hover:bg-gray-50"
             }
           >
             Nos infirmières
@@ -70,8 +70,8 @@ function Navbar() {
             to="/contact"
             className={({ isActive }) =>
               isActive
-                ? "text-lg font-semibold text-[##e4bbbb] px-3 py-2"
-                : "text-lg font-semibold text-gray-900 gray-50 rounded-lg px-3 py-2 hover:bg-gray-50"
+                ? "text-lg text-[##e4bbbb] px-3 py-2"
+                : "text-lg text-gray-900 gray-50 rounded-lg px-3 py-2 hover:bg-gray-50"
             }
           >
             Contact
@@ -102,8 +102,8 @@ function Navbar() {
                   to="/"
                   className={({ isActive }) =>
                     isActive
-                      ? "text-base font-semibold text-[##e4bbbb] hover:bg-gray-50 block rounded-lg px-3 py-2"
-                      : "text-base font-semibold text-gray-900 hover:bg-gray-50 block rounded-lg px-3 py-2"
+                      ? "text-base text-[##e4bbbb] hover:bg-gray-50 block rounded-lg px-3 py-2"
+                      : "text-base text-gray-900 hover:bg-gray-50 block rounded-lg px-3 py-2"
                   }
                 >
                   Accueil
@@ -112,8 +112,8 @@ function Navbar() {
                   to="/services"
                   className={({ isActive }) =>
                     isActive
-                      ? "text-base font-semibold text-[##e4bbbb]  hover:bg-gray-50 block rounded-lg px-3 py-2"
-                      : "text-base font-semibold text-gray-900 hover:bg-gray-50 block rounded-lg px-3 py-2"
+                      ? "text-base text-[##e4bbbb]  hover:bg-gray-50 block rounded-lg px-3 py-2"
+                      : "text-base text-gray-900 hover:bg-gray-50 block rounded-lg px-3 py-2"
                   }
                 >
                   Services
@@ -122,8 +122,8 @@ function Navbar() {
                   to="/infirmieres"
                   className={({ isActive }) =>
                     isActive
-                      ? "text-base font-semibold  text-[##e4bbbb]   hover:bg-gray-50 block rounded-lg px-3 py-2 "
-                      : "text-base font-semibold text-gray-900 hover:bg-gray-50 block rounded-lg px-3 py-2"
+                      ? "text-base  text-[##e4bbbb]   hover:bg-gray-50 block rounded-lg px-3 py-2 "
+                      : "text-base text-gray-900 hover:bg-gray-50 block rounded-lg px-3 py-2"
                   }
                 >
                   Nos infirmières
@@ -132,8 +132,8 @@ function Navbar() {
                   to="/contact"
                   className={({ isActive }) =>
                     isActive
-                      ? "text-base font-semibold text-[##e4bbbb]   hover:bg-gray-50 block rounded-lg px-3 py-2 "
-                      : "text-base font-semibold text-gray-900 hover:bg-gray-50 block rounded-lg px-3 py-2"
+                      ? "text-base text-[##e4bbbb]   hover:bg-gray-50 block rounded-lg px-3 py-2 "
+                      : "text-base text-gray-900 hover:bg-gray-50 block rounded-lg px-3 py-2"
                   }
                 >
                   Contact
