@@ -5,6 +5,7 @@ import iconAddress from "../../assets/icons/icon-address.png";
 import iconPhone from "../../assets/icons/icon-phone.png";
 import iconEmail from "../../assets/icons/icon-email.png";
 import iconSms from "../../assets/icons/icon-sms.png";
+import Button from "../button/Button";
 
 export default function Footer() {
   return (
@@ -13,7 +14,7 @@ export default function Footer() {
         <NavLink to="/">
           <img className={styles.logo} src={iconLogo} alt="Logo Infirmiere" />
         </NavLink>
-        <button>Contacter</button>
+        <Button>Contacter</Button>
       </div>
       <div className={styles.container}>
         <h3>Horaires</h3>
