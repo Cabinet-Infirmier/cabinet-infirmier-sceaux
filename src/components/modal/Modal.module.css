@@ -1,0 +1,15 @@
+.modalContainer {
+  width: 90vw;
+  max-width: 40rem;
+  min-width: 350px;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  overflow: hidden;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 200;
+}

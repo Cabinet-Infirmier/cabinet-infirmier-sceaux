@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.container img {
+  width: 80px;
+}
+
+.titles {
+  text-align: right;
+}

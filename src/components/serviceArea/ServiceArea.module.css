@@ -1,36 +1,46 @@
-.ServiceArea {
+.serviceArea {
+  margin-top: 3rem;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  position: relative;
 }
 
-.Container {
+Modal {
+  position: absolute;
+}
+
+.container {
   margin: 1rem;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
 }
 
-.CabinetContainer {
+.cabinetContainer {
   width: 20rem;
-  height: 400px;
+  height: 25rem;
   overflow: hidden;
   border-radius: 15px;
 }
 
-.CabinetImage {
+.cabinetImage {
   width: 20rem;
 }
 
-.ButtonContainer {
-  position: absolute;
-  top: 20rem;
-  left: 7rem;
+.buttonContainer {
+  position: relative;
 }
 
-.MapContainer {
+.buttonContainer Button {
+  position: absolute;
+  top: -5rem;
+  left: 30%;
+  z-index: 100;
+}
+
+.mapContainer {
   width: 40rem;
   height: 400px;
   /* overflow: hidden; */
@@ -40,7 +50,7 @@
   align-items: center;
 }
 
-.Title {
+.title {
   margin-top: 1rem;
   display: flex;
   justify-content: center;
@@ -49,7 +59,7 @@
   flex-wrap: wrap;
 }
 
-.Title img {
+.title img {
   width: 40px;
   height: 40px;
 }
