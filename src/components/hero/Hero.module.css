@@ -1,7 +1,7 @@
 .hero {
   margin-top: 1em;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   text-align: center;
@@ -9,26 +9,25 @@
   width: 100%;
 }
 
-.hero h1,
-h2 {
-  font-family: Istok Web;
+.hero h2 {
+  font-family: "Istok Web", serif;
   font-weight: 700;
-  font-size: px2.25rem;
+  font-size: 1.8rem;
   line-height: 3.239rem;
   letter-spacing: 0%;
   text-align: center;
+  color: #575555;
+  margin-top: 0;
 }
 
-.hero h2 {
-  color: #e4bbbb;
-  margin-top: 0;
+.hero h3 {
+  color: "#e4bbbb";
 }
 
 .hero .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 4rem;
 }
 
 .hero .container p {
@@ -37,14 +36,12 @@ h2 {
   line-height: 29px;
   letter-spacing: 3%;
   text-align: center;
-  width: 383;
-  height: 87;
-  top: 218px;
-  left: 184px;
+  margin-top: 15px;
 }
 
 .address {
   font-weight: bold;
+  margin-top: 15px;
 }
 
 a {
@@ -55,12 +52,9 @@ a {
 .containerImage {
   position: relative;
   padding-top: 2rem;
-  width: 40rem;
-  height: 34.375rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
 }
 
 .grayForm {
@@ -141,4 +135,24 @@ a {
   font-weight: bold;
   margin-bottom: 20px;
   font-size: 0.9em;
+  margin-top: 15px;
+}
+
+.contact > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact > div > a {
+  margin-left: 8px;
+}
+
+@media (max-width: 1048px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .containerImage {
+    margin-top: 50px;
+  }
 }

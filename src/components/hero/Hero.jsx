@@ -11,8 +11,8 @@ function Hero() {
     <div className={styles.hero}>
       <div className={styles.container}>
         <div>
-          <h1>Cabinet d&apos;infirmières</h1>
-          <h2>Sceaux</h2>
+          <h2>Cabinet d&apos;infirmières</h2>
+          <h3>Sceaux</h3>
 
           <div>
             <p>
