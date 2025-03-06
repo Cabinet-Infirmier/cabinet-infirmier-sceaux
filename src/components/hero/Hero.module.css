@@ -9,11 +9,6 @@
   width: 100%;
 }
 
-<<<<<<< HEAD
-.hero h1 {
-  line-height: 30px;
-  font-family: "istok", sans-serif;
-=======
 .hero h1,
 h2 {
   font-family: Istok Web;
@@ -22,16 +17,11 @@ h2 {
   line-height: 3.239rem;
   letter-spacing: 0%;
   text-align: center;
->>>>>>> b9cc7b672f70e5497144852480a7d2991f8eb626
 }
 
 .hero h2 {
   color: #e4bbbb;
-<<<<<<< HEAD
-  font-family: "istok", sans-serif;
-=======
   margin-top: 0;
->>>>>>> b9cc7b672f70e5497144852480a7d2991f8eb626
 }
 
 .hero .container {
@@ -110,12 +100,6 @@ a {
   animation: fadeIn 2s ease 1s 1 normal forwards;
 }
 
-<<<<<<< HEAD
-.adress {
-  font-weight: bold;
-  font-size: 0.8em;
-  line-height: 1.9em;
-=======
 @keyframes moveInLeft {
   from {
     transform: translateX(-150px);
@@ -147,7 +131,6 @@ a {
     opacity: 1;
     transform: scale(1);
   }
->>>>>>> b9cc7b672f70e5497144852480a7d2991f8eb626
 }
 
 .contact {
