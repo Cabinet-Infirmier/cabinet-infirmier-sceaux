@@ -22,11 +22,18 @@
   top: 0%;
 }
 
+.btnDisabled {
+  background-color: rgb(191, 190, 190);
+}
+
+.btnActive {
+  background-color: #d78b8b;
+}
+
 .btn {
   border: none;
   border-radius: 15px;
   color: #fff;
-  background-color: #d78b8b;
   padding: 10px;
   cursor: pointer;
 }

@@ -11,7 +11,7 @@ export default function ZoomImage({ ...attributes }) {
   };
 
   const handleZoomOut = () => {
-    setScale((scale) => scale - 0.1);
+    setScale((scale) => (scale <= 1 ? 1 : scale - 0.1));
   };
 
   //Effect handler for image dragging
@@ -62,7 +62,12 @@ export default function ZoomImage({ ...attributes }) {
         <button onClick={handleZoomIn} className={styles.btn}>
           +
         </button>
-        <button onClick={handleZoomOut} className={styles.btn}>
+        <button
+          onClick={handleZoomOut}
+          className={`${styles.btn} ${
+            scale === 1 ? styles.btnDisabled : styles.btnActive
+          }`}
+        >
           -
         </button>
       </div>

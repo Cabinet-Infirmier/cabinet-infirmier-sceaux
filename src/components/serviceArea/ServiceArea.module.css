@@ -23,36 +23,28 @@
 .container img {
   height: auto;
   max-height: 400px;
-  top: 0;
   object-fit: cover;
 }
 
 .cabinetContainer {
-  width: 20rem;
-  height: 25rem;
-  overflow: hidden;
   border-radius: 15px;
+  position: relative;
+  overflow: hidden;
 }
 
 .cabinetImage {
   width: 20rem;
 }
 
-.buttonContainer {
-  position: relative;
-}
-
-.buttonContainer Button {
+.cabinetContainer Button {
   position: absolute;
-  top: -5rem;
-  left: 30%;
-  z-index: 100;
+  top: 60%;
+  left: 32%;
 }
 
 .mapContainer {
   width: 40rem;
   height: 400px;
-  /* overflow: hidden; */
   display: flex;
   flex-direction: column;
   justify-content: center;

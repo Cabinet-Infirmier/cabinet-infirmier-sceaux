@@ -25,10 +25,9 @@ export default function ServiceArea() {
             src={CabinetImage}
             alt="Cabinet"
           />
-        </div>
-        <div className={styles.buttonContainer}>
           <Button onClick={() => setOpenModal(true)}>Voir Plus</Button>
         </div>
+
         <div className={styles.title}>
           <img src={IconAddress} alt="Cabinet medical icône" />
           <h4>Cabinet infirmier</h4>
