@@ -19,7 +19,7 @@
   border-radius: 15px;
   position: absolute;
   z-index: 100;
-  bottom: 20%;
+  top: 0%;
 }
 
 .btn {
