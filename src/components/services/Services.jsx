@@ -15,7 +15,7 @@ function Services() {
           />
           <Service
             name="Gestion des traitements"
-            fileName="treatment-management.svg"
+            fileName="icon-treatment.png"
           />
         </div>
 
