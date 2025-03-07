@@ -1,4 +1,3 @@
-import styles from "./Homepage.module.css";
 import Hero from "../components/hero/Hero";
 import MainInfo from "../components/squareInfo/Squareinfo";
 import NurseTeam from "../components/nurse-team/NurseTeam";
