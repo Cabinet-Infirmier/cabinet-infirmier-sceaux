@@ -2,7 +2,7 @@ import Hero from "../components/hero/Hero";
 import MainInfo from "../components/squareInfo/Squareinfo";
 import NurseTeam from "../components/nurse-team/NurseTeam";
 import Disclaimer from "../components/disclaimer/Disclaimer";
-import ServiceArea from "../components/serviceArea/serviceArea";
+import ServiceArea from "../components/serviceArea/ServiceArea";
 import Services from "../components/services/Services";
 import UsefulInfo from "../components/useful-info/UsefulInfo";
 
