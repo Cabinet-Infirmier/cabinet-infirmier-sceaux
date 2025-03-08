@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Button from "../button/Button";
 import Nurse from "../nurse/Nurse";
 import styles from "./NurseTeam.module.css";
@@ -12,7 +13,9 @@ function NurseTeam() {
         <Nurse name="Angelina" fileName="angelina.png" />
         <Nurse name="Angelina" fileName="angelina.png" />
       </ul>
-      <Button>Prendre RDV</Button>
+      <Link to="/contact">
+        <Button>Prendre RDV</Button>
+      </Link>
     </section>
   );
 }

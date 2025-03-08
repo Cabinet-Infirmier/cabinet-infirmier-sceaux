@@ -30,9 +30,6 @@ function Note() {
             alt="Service infirmière"
           />
         </div>
-        <div className="flex justify-center">
-          <Button onClick={() => navigate("/contact")}>Prendre RDV</Button>
-        </div>
       </div>
     </div>
   );

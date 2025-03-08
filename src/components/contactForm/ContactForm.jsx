@@ -1,22 +1,25 @@
-import React, { useRef } from "react";
-import emailjs from "emailjs-com";
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
+import Button from "../button/Button";
 
 const ContactForm = () => {
   const form = useRef();
+  const [message, setMessage] = useState(""); // Etat pour le message de succès ou d'erreur
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm("service_ohua74e", "template_xctv50s", form.current, {
-        publicKey: "j0K1hoSjAobI-vPa9",
+        publicKey: "QZOlCSPn_d5Uj81Rb",
       })
       .then(
         () => {
-          console.log("SUCCESS!");
+          setMessage("Votre message a bien été envoyé !"); // Message de succès
+          form.current.reset(); // Réinitialiser le formulaire
         },
         (error) => {
-          console.log("FAILED...", error.text);
+          setMessage(`Une erreur est survenue. Veuillez réessayer.`); // Message d'erreur
         }
       );
   };
@@ -27,21 +30,38 @@ const ContactForm = () => {
       onSubmit={sendEmail}
       className="bg-white p-6 rounded-2xl shadow-lg max-w-md mx-auto space-y-4"
     >
-      <label className="block text-gray-700 text-sm font-bold">Prénom</label>
-      <input
-        type="text"
-        name="user_prenom"
-        className="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
-        required
-      />
+      {message && (
+        <div
+          className={`mt-1 text-center p-2 rounded-lg ${
+            message.includes("erreur")
+              ? "bg-red-200 text-red-800"
+              : "bg-green-200 text-green-800"
+          }`}
+        >
+          {message}
+        </div>
+      )}
+      <div className="flex justify-center items-center">
+        <label className="block text-gray-700 text-sm font-bold mr-2">
+          Prénom
+        </label>
+        <input
+          type="text"
+          name="user_prenom"
+          className="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+          required
+        />
 
-      <label className="block text-gray-700 text-sm font-bold">Nom</label>
-      <input
-        type="text"
-        name="user_nom"
-        className="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
-        required
-      />
+        <label className="block text-gray-700 text-sm font-bold mx-2">
+          Nom
+        </label>
+        <input
+          type="text"
+          name="user_nom"
+          className="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+          required
+        />
+      </div>
 
       <label className="block text-gray-700 text-sm font-bold">Email</label>
       <input
@@ -74,11 +94,9 @@ const ContactForm = () => {
         required
       />
 
-      <input
-        type="submit"
-        value="Send"
-        className="w-full bg-blue-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-blue-600 cursor-pointer transition ease-in-out"
-      />
+      <Button>
+        <input type="submit" value="Send" />
+      </Button>
     </form>
   );
 };

@@ -3,7 +3,7 @@ import styles from "../zoomImage/ZoomImage.module.css";
 
 export default function ZoomImage({ ...attributes }) {
   const [scale, setScale] = useState(1);
-  const [position, setPosition] = useState({ x: 0, y: 0 });
+  const [position, setPosition] = useState({ x: 0, y: -180 });
   const imageRef = useRef(null);
 
   const handleZoomIn = () => {

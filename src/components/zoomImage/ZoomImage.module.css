@@ -9,7 +9,6 @@
 }
 
 .zoomImage img {
-  object-fit: cover;
   height: auto;
 }
 
@@ -41,5 +40,11 @@
 @media (max-width: 960px) {
   .zoomImage {
     width: 100%;
+  }
+
+  @media (max-width: 1048px) {
+    .zoomImage {
+      display: none;
+    }
   }
 }

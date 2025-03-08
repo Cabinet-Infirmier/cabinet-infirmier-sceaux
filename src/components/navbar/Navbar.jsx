@@ -57,14 +57,14 @@ function Navbar() {
             Services
           </NavLink>
           <NavLink
-            to="/infirmieres"
+            to="/questions-frequentes"
             className={({ isActive }) =>
               isActive
                 ? "text-lg text-[##e4bbbb] px-3 py-2"
                 : "text-lg text-gray-900 gray-50 rounded-lg px-3 py-2 hover:bg-gray-50"
             }
           >
-            Nos infirmières
+            Questions fréquentes
           </NavLink>
           <NavLink
             to="/contact"
@@ -122,7 +122,7 @@ function Navbar() {
                   Services
                 </NavLink>
                 <NavLink
-                  to="/infirmieres"
+                  to="/questions-frequentes"
                   className={({ isActive }) =>
                     isActive
                       ? "text-base  text-[##e4bbbb]   hover:bg-gray-50 block rounded-lg px-3 py-2 "
@@ -130,7 +130,7 @@ function Navbar() {
                   }
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  Nos infirmières
+                  Questions fréquentes
                 </NavLink>
                 <NavLink
                   to="/contact"

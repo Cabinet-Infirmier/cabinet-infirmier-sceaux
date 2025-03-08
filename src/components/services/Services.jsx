@@ -1,7 +1,7 @@
 import { motion, useAnimation, useInView } from "framer-motion";
 import { useEffect, useRef } from "react";
 
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Service from "../service/Service";
 import styles from "./Services.module.css";
 import Button from "../button/Button";
@@ -35,7 +35,6 @@ function Services() {
           </motion.div>
 
           <motion.div
-            ref={containerRef}
             initial="hidden"
             animate={mainControls}
             variants={{
@@ -51,7 +50,6 @@ function Services() {
           </motion.div>
 
           <motion.div
-            ref={containerRef}
             initial="hidden"
             animate={mainControls}
             variants={{
@@ -69,7 +67,6 @@ function Services() {
 
         <div className={styles.secondRow}>
           <motion.div
-            ref={containerRef}
             initial="hidden"
             animate={mainControls}
             variants={{
@@ -82,7 +79,6 @@ function Services() {
           </motion.div>
 
           <motion.div
-            ref={containerRef}
             initial="hidden"
             animate={mainControls}
             variants={{
@@ -95,7 +91,6 @@ function Services() {
           </motion.div>
 
           <motion.div
-            ref={containerRef}
             initial="hidden"
             animate={mainControls}
             variants={{
@@ -111,7 +106,6 @@ function Services() {
           </motion.div>
 
           <motion.div
-            ref={containerRef}
             initial="hidden"
             animate={mainControls}
             variants={{
@@ -123,9 +117,9 @@ function Services() {
             <Service name="Charte du patient" fileName="patient-charter.svg" />
           </motion.div>
         </div>
-        <NavLink to="/services">
+        <Link to="/services">
           <Button>Voir les services</Button>
-        </NavLink>
+        </Link>
       </div>
     </div>
   );
