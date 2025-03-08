@@ -1,13 +1,34 @@
+import { motion, useAnimation, useInView } from "framer-motion";
+import { useEffect, useRef } from "react";
+
 import ServiceTitle from "../serviceTitle/ServiceTitle";
 
 function PatientCharter() {
+  const containerRef = useRef(null);
+  const isInView = useInView(containerRef, { once: true });
+  const mainControls = useAnimation();
+
+  useEffect(() => {
+    if (isInView) {
+      mainControls.start("visible");
+    }
+  }, [isInView, mainControls]);
   return (
     <div className="max-w-[1048px] mt-20">
       <div className="mt-5">
-        <ServiceTitle
-          title="Charte du patient"
-          icon="icon-patient"
-        ></ServiceTitle>
+        <motion.div
+          ref={containerRef}
+          initial="hidden"
+          animate={mainControls}
+          variants={{
+            hidden: { opacity: 0, x: -75 },
+            visible: { opacity: 1, x: 0 },
+          }}
+          transition={{ duration: 1.5 }}
+        >
+          <ServiceTitle title="Charte du patient" icon="icon-patient" />
+        </motion.div>
+
         <h2 className="text-lg text-[#575555] font-semibold text-center uppercase">
           Droits du patient
         </h2>

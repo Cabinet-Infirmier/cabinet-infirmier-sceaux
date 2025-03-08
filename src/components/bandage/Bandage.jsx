@@ -1,3 +1,6 @@
+import { motion, useAnimation, useInView } from "framer-motion";
+import { useEffect, useRef } from "react";
+
 import ServiceTitle from "../serviceTitle/ServiceTitle";
 
 function Bandage() {
@@ -8,11 +11,33 @@ function Bandage() {
     "Nous sommes formées pour choisir le type de pansement le plus adapté en fonction de l’etat de cicatrisation et de la localisation.",
     "Elles rassurent et aide le patient à gérer l’anxiété lié aux soins",
   ];
+
+  const containerRef = useRef(null);
+  const isInView = useInView(containerRef, { once: true });
+  const mainControls = useAnimation();
+
+  useEffect(() => {
+    if (isInView) {
+      mainControls.start("visible");
+    }
+  }, [isInView, mainControls]);
   return (
     <div className="max-w-[1048px] mt-20">
       <div className="mt-5">
         <div className="flex flex-col">
-          <ServiceTitle title="Pansements" icon="icon-pansement"></ServiceTitle>
+          <motion.div
+            ref={containerRef}
+            initial="hidden"
+            animate={mainControls}
+            variants={{
+              hidden: { opacity: 0, x: -75 },
+              visible: { opacity: 1, x: 0 },
+            }}
+            transition={{ duration: 1.5 }}
+          >
+            <ServiceTitle title="Pansements" icon="icon-pansement" />
+          </motion.div>
+
           <div className="flex xl:flex-nowrap flex-wrap-reverse justify-center">
             <div>
               <div className="mt-5">
