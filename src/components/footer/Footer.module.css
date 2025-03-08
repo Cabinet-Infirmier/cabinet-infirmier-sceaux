@@ -9,21 +9,22 @@
   align-items: center;
   justify-content: space-around;
   background-color: #eeecec;
-  font-family: "Istok Web", serif;
-}
-
-.footer ul,
-.footer p,
-.footerInfo {
+  font-family: "Instrument Sans", serif;
   color: #575555;
+  font-size: 0.8rem;
 }
 
 .footer h3 {
-  color: black;
+  font-size: 1rem;
 }
-
 .container {
   text-align: center;
+}
+
+.containerHours {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .footer ul {
@@ -38,8 +39,8 @@
   display: block;
   color: inherit;
   text-decoration: none;
-  font-size: 1rem;
   text-align: center;
+  margin-left: 1rem;
 }
 
 .footer a:hover {
@@ -47,13 +48,14 @@
   transition: 200ms;
 }
 
-.footer img {
+.footerInfo img {
   height: 27px;
+  margin-right: 0.5rem;
 }
 
-.footer .containerLogo img {
-  height: 6rem;
-  margin: 1rem;
+.logo {
+  height: 3rem;
+  margin-bottom: 0.5rem;
 }
 
 .containerLogo {
@@ -68,10 +70,6 @@
   justify-content: left;
   align-items: center;
   margin-top: 15px;
-}
-
-.footerInfo img {
-  margin-right: 10px;
 }
 
 @media (max-width: 960px) {
