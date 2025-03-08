@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import Service from "../service/Service";
 import styles from "./Services.module.css";
 import Button from "../button/Button";
@@ -28,7 +29,9 @@ function Services() {
           />
           <Service name="Charte du patient" fileName="patient-charter.svg" />
         </div>
-        <Button>Voir les services</Button>
+        <NavLink to="/services">
+          <Button>Voir les services</Button>
+        </NavLink>
       </div>
     </div>
   );

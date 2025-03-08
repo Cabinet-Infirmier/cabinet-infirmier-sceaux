@@ -1,5 +1,6 @@
 import styles from "./SquareInfo.module.css";
 import Button from "../button/Button";
+import { NavLink } from "react-router-dom";
 
 export default function SquareInfo() {
   return (
@@ -22,7 +23,9 @@ export default function SquareInfo() {
           des formations afin de nous adapter aux nouvelles techniques,
           protocoles de soins et innovations.
         </p>
-        <Button>En savoir Plus</Button>
+        <NavLink to="/services">
+          <Button>En savoir Plus</Button>
+        </NavLink>
       </div>
     </div>
   );
