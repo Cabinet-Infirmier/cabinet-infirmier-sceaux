@@ -1,4 +1,4 @@
-import styles from "../serviceTitle/serviceTitle.module.css";
+import styles from "../serviceTitle/ServiceTitle.module.css";
 
 export default function ServiceTitle({ title, icon, children }) {
   return (
