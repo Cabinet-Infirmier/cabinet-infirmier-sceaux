@@ -1,11 +1,9 @@
-import IconCabinet from "../../../public/images/icons/cabinet-icon.svg";
-import IconMap from "../../../public/images/icons/map-icon.svg";
-import MapImage from "../../assets/images/sector-map.png";
-import ZoomImage from "../zoomImage/ZoomImage";
 import styles from "../serviceArea/ServiceArea.module.css";
+import IconCabinet from "../../../public/images/icons/cabinet-icon.svg";
 import CabinetImage from "/images/cabinet/cabinet-1.jpg";
 import Modal from "../modal/Modal";
 import Button from "../button/Button";
+import ZoomMap from "../zoomMap/ZoomMap.jsx";
 import { useState } from "react";
 
 export default function ServiceArea() {
@@ -18,7 +16,7 @@ export default function ServiceArea() {
         open={openModal}
         onClose={() => setOpenModal(false)}
       />
-      <div className={styles.container}>
+      <section className={styles.container}>
         <div className={styles.cabinetContainer}>
           <img
             className={styles.cabinetImage}
@@ -32,14 +30,8 @@ export default function ServiceArea() {
           <img src={IconCabinet} alt="Cabinet medical icône" />
           <h4>Cabinet infirmier</h4>
         </div>
-      </div>
-      <div className={styles.container}>
-        <ZoomImage src={MapImage} alt="Carte de zones de service" />
-        <div className={styles.title}>
-          <img src={IconMap} alt="Cabinet medical icône" />
-          <h4>Secteur d&apos;intervention à domicile</h4>
-        </div>
-      </div>
+      </section>
+      <ZoomMap />
     </div>
   );
 }
