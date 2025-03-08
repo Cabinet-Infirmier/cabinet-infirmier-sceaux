@@ -1,3 +1,6 @@
+import { motion, useAnimation, useInView } from "framer-motion";
+import { useEffect, useRef } from "react";
+
 import ServiceTitle from "../serviceTitle/ServiceTitle";
 
 function HomeCare() {
@@ -8,9 +11,28 @@ function HomeCare() {
     "Nous accompagnons nos patients dans leur quotidien, en favorisant leur autonomie et en veillant à leur confort. De plus, elle conseille les proches et les aidants sur les soins à prodiguer et coordonne avec d’autres professionnels de santé si nécessaire, permettant ainsi un maintien à domicile en toute sécurité.",
   ];
 
+  const containerRef = useRef(null);
+  const isInView = useInView(containerRef, { once: true });
+  const mainControls = useAnimation();
+
+  useEffect(() => {
+    if (isInView) {
+      mainControls.start("visible");
+    }
+  }, [isInView, mainControls]);
+
   return (
     <div className="max-w-[1048px] mt-[5em]">
-      <div>
+      <motion.div
+        ref={containerRef}
+        initial="hidden"
+        animate={mainControls}
+        variants={{
+          hidden: { opacity: 0, x: -75 },
+          visible: { opacity: 1, x: 0 },
+        }}
+        transition={{ duration: 1.5 }}
+      >
         <ServiceTitle
           title="Soins à domicile pour patients dépendants"
           icon="icon-soins"
@@ -19,14 +41,17 @@ function HomeCare() {
             Prise en charge CPAM sur ordonnance
           </h4>
         </ServiceTitle>
-        <div className="mt-5">
-          {homeCareArray.map((item) => (
-            <p className="text-[18px]" key={item}>
-              {item}
-            </p>
-          ))}
-        </div>
+      </motion.div>
 
+      <div>
+        {homeCareArray.map((item) => (
+          <p className="text-[18px]" key={item}>
+            {item}
+          </p>
+        ))}
+      </div>
+
+      <div>
         <p className="p-5 mt-5 text-[18px] text-white font-semibold rounded-3xl text-center bg-[#D1A7A7]">
           Notre objectif est de permettre le maintient à domicile en proposant
           une prise en charge globale du patient.
