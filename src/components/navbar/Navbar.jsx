@@ -105,9 +105,11 @@ function Navbar() {
                       ? "text-base text-[##e4bbbb] hover:bg-gray-50 block rounded-lg px-3 py-2"
                       : "text-base text-gray-900 hover:bg-gray-50 block rounded-lg px-3 py-2"
                   }
+                  onClick={() => setMobileMenuOpen(false)}
                 >
                   Accueil
                 </NavLink>
+
                 <NavLink
                   to="/services"
                   className={({ isActive }) =>
@@ -115,6 +117,7 @@ function Navbar() {
                       ? "text-base text-[##e4bbbb]  hover:bg-gray-50 block rounded-lg px-3 py-2"
                       : "text-base text-gray-900 hover:bg-gray-50 block rounded-lg px-3 py-2"
                   }
+                  onClick={() => setMobileMenuOpen(false)}
                 >
                   Services
                 </NavLink>
@@ -125,6 +128,7 @@ function Navbar() {
                       ? "text-base  text-[##e4bbbb]   hover:bg-gray-50 block rounded-lg px-3 py-2 "
                       : "text-base text-gray-900 hover:bg-gray-50 block rounded-lg px-3 py-2"
                   }
+                  onClick={() => setMobileMenuOpen(false)}
                 >
                   Nos infirmières
                 </NavLink>
@@ -135,6 +139,7 @@ function Navbar() {
                       ? "text-base text-[##e4bbbb]   hover:bg-gray-50 block rounded-lg px-3 py-2 "
                       : "text-base text-gray-900 hover:bg-gray-50 block rounded-lg px-3 py-2"
                   }
+                  onClick={() => setMobileMenuOpen(false)}
                 >
                   Contact
                 </NavLink>
