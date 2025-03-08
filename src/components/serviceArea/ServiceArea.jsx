@@ -1,5 +1,5 @@
-import IconCabinet from "../../assets/icons/icon-cabinet.png";
-import IconAddress from "../../assets/icons/icon-address.png";
+import IconCabinet from "../../../public/images/icons/cabinet-icon.svg";
+import IconMap from "../../../public/images/icons/map-icon.svg";
 import MapImage from "../../assets/images/sector-map.png";
 import ZoomImage from "../zoomImage/ZoomImage";
 import styles from "../serviceArea/ServiceArea.module.css";
@@ -29,14 +29,14 @@ export default function ServiceArea() {
         </div>
 
         <div className={styles.title}>
-          <img src={IconAddress} alt="Cabinet medical icône" />
+          <img src={IconCabinet} alt="Cabinet medical icône" />
           <h4>Cabinet infirmier</h4>
         </div>
       </div>
       <div className={styles.container}>
         <ZoomImage src={MapImage} alt="Carte de zones de service" />
         <div className={styles.title}>
-          <img src={IconCabinet} alt="Cabinet medical icône" />
+          <img src={IconMap} alt="Cabinet medical icône" />
           <h4>Secteur d&apos;intervention à domicile</h4>
         </div>
       </div>
