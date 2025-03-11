@@ -4,8 +4,8 @@ import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
-import PageNotFound from "./components/page-not-found/PageNotFound";
 import Questions from "./pages/Questions";
+import MentionLegal from "./pages/MentionLegal";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Route path="services" element={<Services />} />
         <Route path="contact" element={<Contact />} />
         <Route path="questions-frequentes" element={<Questions />} />
-        <Route path="*" element={<PageNotFound />} />
+        <Route path="mention-legales" element={<MentionLegal />} />
       </Routes>
 
       <Footer />
