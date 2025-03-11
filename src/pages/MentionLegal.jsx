@@ -1,6 +1,6 @@
 export default function MentionLegal() {
   return (
-    <div className="mt-6">
+    <div className="m-7">
       <section className="mb-6">
         <h2 className="text-xl font-semibold">1. Informations Générales</h2>
         <p>

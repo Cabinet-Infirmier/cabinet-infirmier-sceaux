@@ -2,7 +2,7 @@ import styles from "./Button.module.css";
 
 function Button({ onClick, children }) {
   return (
-    <div className="h-[100px]">
+    <div>
       <button
         className="cursor-pointer transition-all bg-[#E5BBBB] text-white px-6 py-2 rounded-3xl
 border-[#e3a3a3]
