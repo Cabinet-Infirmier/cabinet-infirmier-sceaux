@@ -25,7 +25,7 @@ export default function ContactInfo() {
       </div>
       <div className={styles.containerInfo}>
         <AtSign color="#d78b8b" />
-        <a>cabinet.idel.sceaux@gmail.com</a>
+        <a href="">cabinet.idel.sceaux@gmail.com</a>
       </div>
     </div>
   );

@@ -35,7 +35,7 @@ function HomeCare() {
       >
         <ServiceTitle
           title="Soins à domicile pour patients dépendants"
-          icon="icon-soins"
+          icon="home-care"
         >
           <h4 className="text-lg text-left">
             Prise en charge CPAM sur ordonnance

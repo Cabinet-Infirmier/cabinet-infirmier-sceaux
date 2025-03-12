@@ -60,7 +60,7 @@ function Services() {
           >
             <Service
               name="Gestion des traitements"
-              fileName="icon-treatment.png"
+              fileName="medical-treatment.svg"
             />
           </motion.div>
         </div>

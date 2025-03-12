@@ -50,7 +50,7 @@ function NursingCare() {
           }}
           transition={{ duration: 1.5 }}
         >
-          <ServiceTitle title="Soins Infirmiers" icon="icon-nurse">
+          <ServiceTitle title="Soins Infirmiers" icon="nurse-icon">
             <h4 className="text-lg text-left">
               Prise en charge CPAM sur ordonnance
             </h4>
