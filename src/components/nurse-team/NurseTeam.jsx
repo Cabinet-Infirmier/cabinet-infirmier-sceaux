@@ -4,7 +4,7 @@ import Nurse from "../nurse/Nurse";
 
 function NurseTeam() {
   return (
-    <section className="flex flex-col justify-center items-center">
+    <section className="flex flex-col justify-center items-center mt-5 mb-5">
       <h2 className="text-[#575555] uppercase text-xl font-bold mb-5">
         Infirmières au cabinet
       </h2>

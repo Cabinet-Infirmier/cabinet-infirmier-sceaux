@@ -15,6 +15,10 @@ function Homepage() {
       <ServiceArea />
       <UsefulInfo />
       <NurseTeam />
+      <div
+        className="elfsight-app-af76246d-4231-4286-98b7-9059b32644d6"
+        data-elfsight-app-lazy
+      ></div>
       <Disclaimer />
     </>
   );
