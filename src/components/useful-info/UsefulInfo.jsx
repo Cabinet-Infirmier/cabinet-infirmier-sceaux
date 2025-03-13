@@ -1,5 +1,3 @@
-import styles from "./UsefulInfo.module.css";
-
 const icons = [
   { img: "calendar-icon.svg", fileName: "Icon de calendrier" },
   { img: "money-icon.svg", fileName: "Icon de paiement" },
