@@ -27,7 +27,7 @@ function Vaccination() {
             }}
             transition={{ duration: 1.5 }}
           >
-            <ServiceTitle title="Vaccination" icon="icon-vaccin" />
+            <ServiceTitle title="Vaccination" icon="syringe-icon" />
           </motion.div>
 
           <div className="flex xl:flex-nowrap flex-wrap-reverse justify-center">

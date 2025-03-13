@@ -26,7 +26,7 @@ function MedicalRecord() {
         transition={{ duration: 1.5 }}
       >
         {" "}
-        <ServiceTitle title="Dossiers de Soins" icon="icon-dossier" />
+        <ServiceTitle title="Dossiers de Soins" icon="medical-history-icon" />
       </motion.div>
 
       <div className="mt-5">

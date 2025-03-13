@@ -35,7 +35,7 @@ function Bandage() {
             }}
             transition={{ duration: 1.5 }}
           >
-            <ServiceTitle title="Pansements" icon="icon-pansement" />
+            <ServiceTitle title="Pansements" icon="injury-icon" />
           </motion.div>
 
           <div className="flex xl:flex-nowrap flex-wrap-reverse justify-center">

@@ -28,7 +28,7 @@ function TreatmentManagement() {
         >
           <ServiceTitle
             title="Gestion des traitements"
-            icon="icon-treatment"
+            icon="medical-treatment"
           ></ServiceTitle>
         </motion.div>
 

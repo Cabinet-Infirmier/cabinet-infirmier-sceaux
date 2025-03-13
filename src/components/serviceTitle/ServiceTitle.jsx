@@ -6,7 +6,7 @@ export default function ServiceTitle({ title, icon, children }) {
       <div>
         <img
           id={icon}
-          src={`/images/icons/${icon}.png`}
+          src={`/images/icons/${icon}.svg`}
           alt={`icon ${title}`}
         />
       </div>

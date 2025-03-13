@@ -29,7 +29,7 @@ function PatientCharter() {
           }}
           transition={{ duration: 1.5 }}
         >
-          <ServiceTitle title="Charte du patient" icon="icon-patient" />
+          <ServiceTitle title="Charte du patient" icon="patient-charter" />
         </motion.div>
 
         <h2 className="text-lg text-[#575555] font-semibold text-center uppercase">
