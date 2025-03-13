@@ -10,8 +10,8 @@ const ContactForm = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_ohua74e", "template_xctv50s", form.current, {
-        publicKey: "QZOlCSPn_d5Uj81Rb",
+      .sendForm("service_bq2gm98", "template_l5o626i", form.current, {
+        publicKey: "fMGiSoHPPG1HGWP_w",
       })
       .then(
         () => {
@@ -47,7 +47,7 @@ const ContactForm = () => {
         </label>
         <input
           type="text"
-          name="user_prenom"
+          name="name"
           className="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
           required
         />
@@ -57,7 +57,7 @@ const ContactForm = () => {
         </label>
         <input
           type="text"
-          name="user_nom"
+          name="lastname"
           className="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
           required
         />
@@ -66,7 +66,7 @@ const ContactForm = () => {
       <label className="block text-gray-700 text-sm font-bold">Email</label>
       <input
         type="email"
-        name="user_email"
+        name="email"
         className="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
         required
       />
@@ -74,7 +74,7 @@ const ContactForm = () => {
       <label className="block text-gray-700 text-sm font-bold">Téléphone</label>
       <input
         type="tel"
-        name="user_telephone"
+        name="phone"
         className="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
         required
       />
@@ -82,7 +82,7 @@ const ContactForm = () => {
       <label className="block text-gray-700 text-sm font-bold">Sujet</label>
       <input
         type="text"
-        name="user_sujet"
+        name="title"
         className="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
         required
       />

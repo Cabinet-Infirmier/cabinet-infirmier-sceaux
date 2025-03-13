@@ -7,7 +7,9 @@ function HomeCare() {
   const homeCareArray = [
     "Dans le cadre d’une situation de dépendance temporaire ou permanente BSI",
     "Le rôle de l’infirmière dans le maintien des personnes dépendantes à domicile est crucial et multidimensionnel. Notre objectif principal est de garantir la sécurité de chaque patient tout en leur permettant de vivre chez eux, dans un environnement familier, le plus longtemps possible. Nous évaluons les besoins de la personne dépendante en matière de soins, d’hygiène, de nutrition, de mobilité et de sécurité. Cette évaluation permet de mettre en place un plan de soins personnalisé.",
+    "",
     "L’infirmiere prodigue des soins tels que la surveillance des constantes, la prise du traitement, pansements, bandes ou bas de contention, prise des compléments alimentaire, et la surveillance de l’apparition d’ œdèmes. Elle met en œuvre des mesures préventives pour éviter les complications liées à l’immobilité, comme les escarres, les infections, les troubles circulatoires et les chutes.",
+    "",
     "Nous accompagnons nos patients dans leur quotidien, en favorisant leur autonomie et en veillant à leur confort. De plus, elle conseille les proches et les aidants sur les soins à prodiguer et coordonne avec d’autres professionnels de santé si nécessaire, permettant ainsi un maintien à domicile en toute sécurité.",
   ];
 
@@ -45,7 +47,7 @@ function HomeCare() {
 
       <div>
         {homeCareArray.map((item) => (
-          <p className="text-[18px]" key={item}>
+          <p className="text-[18px] mt-[2em] text-center" key={item}>
             {item}
           </p>
         ))}

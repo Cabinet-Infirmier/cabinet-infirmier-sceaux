@@ -10,9 +10,13 @@ export default function ContactInfo() {
         <a href="https://www.google.com/maps/dir//Infirmi%C3%A8res+%C3%A0+domicile:+Mme+THOMINOT-+Mme+NOEL-+Mme+SAINT-JOANNIS+%26+Mme+PELTRET,+18+square+robinson+RDC+Gauche+interphone+15,+92330+Sceaux/@48.779387,2.2796306,17z/data=!3m1!5s0x47e670b27e1edec1:0xf9e118013997a658!4m18!1m8!3m7!1s0x47e670b27f898bfb:0x4a7d1c0fa00bfb97!2sInfirmi%C3%A8res+%C3%A0+domicile:+Mme+THOMINOT-+Mme+NOEL-+Mme+SAINT-JOANNIS+%26+Mme+PELTRET!8m2!3d48.7793781!4d2.2822223!15sCkxDYWJpbmV0IGluZmlybWllcnMgMTggc3F1YXJlIHJvYmluc29uIFJEQyBHYXVjaGUgaW50ZXJwaG9uZSAxNSwgOTIzMzAgU2NlYXV4kgEObnVyc2luZ19hZ2VuY3ngAQA!16s%2Fg%2F1yj4k3nxk!4m8!1m0!1m5!1m1!1s0x47e670b27f898bfb:0x4a7d1c0fa00bfb97!2m2!1d2.2822223!2d48.7793781!3e3?entry=ttu&g_ep=EgoyMDI1MDIxOS4xIKXMDSoASAFQAw%3D%3D">
           Cabinet infirmiers
           <br></br>
-          18 square robinson RDC Gauche
+          18 square robinson
           <br></br>
-          interphone 15, 92330 Sceaux
+          92330 Sceaux
+          <br></br>
+          interphone 15
+          <br></br>
+          RDC Gauche
         </a>
       </div>
       <div className={styles.containerInfo}>
