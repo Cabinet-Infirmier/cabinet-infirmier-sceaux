@@ -22,7 +22,7 @@ function Navbar() {
               className="h-auto w-[5em]"
             />
             <h1 className="text-[#575555] font-semibold lg:text-[2em] m-2 uppercase">
-              Cabinet Infirmières
+              Cabinet Infirmier
             </h1>
           </Link>
         </div>

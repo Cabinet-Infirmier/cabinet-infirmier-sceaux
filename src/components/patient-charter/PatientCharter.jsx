@@ -14,7 +14,7 @@ function PatientCharter() {
     }
   }, [isInView, mainControls]);
   return (
-    <div className="max-w-[1048px] mt-20">
+    <div className="max-w-[1048px] mt-20" id="patient-charter">
       <div className="mt-5">
         <motion.div
           ref={containerRef}

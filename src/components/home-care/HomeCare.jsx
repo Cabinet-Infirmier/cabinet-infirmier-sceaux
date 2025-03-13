@@ -24,7 +24,7 @@ function HomeCare() {
   }, [isInView, mainControls]);
 
   return (
-    <div className="max-w-[1048px] mt-[5em]">
+    <div className="max-w-[1048px] mt-[5em]" id="home-care">
       <motion.div
         ref={containerRef}
         initial="hidden"

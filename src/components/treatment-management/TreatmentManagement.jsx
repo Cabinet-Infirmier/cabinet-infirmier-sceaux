@@ -14,7 +14,7 @@ function TreatmentManagement() {
     }
   }, [isInView, mainControls]);
   return (
-    <div className="max-w-[1048px] mt-20">
+    <div className="max-w-[1048px] mt-20" id="icon-treatment">
       <div>
         <motion.div
           ref={containerRef}
