@@ -1,7 +1,7 @@
 import { motion, useAnimation, useInView } from "framer-motion";
 import { useEffect, useRef } from "react";
 
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Service from "../service/Service";
 import styles from "./Services.module.css";
 import Button from "../button/Button";
@@ -31,7 +31,11 @@ function Services() {
             }}
             transition={{ duration: 1 }}
           >
-            <Service name="Soins infirmiers" fileName="nurse-icon.svg" />
+            <Service
+              id="nurse-icon"
+              name="Soins infirmiers"
+              fileName="nurse-icon.svg"
+            />
           </motion.div>
 
           <motion.div
@@ -44,6 +48,7 @@ function Services() {
             transition={{ delay: 0.2, duration: 1 }}
           >
             <Service
+              id="home-care"
               name="Soins à domicile pour les patients dépendants"
               fileName="home-care.svg"
             />{" "}
@@ -59,6 +64,7 @@ function Services() {
             transition={{ delay: 0.4, duration: 1 }}
           >
             <Service
+              id="icon-treatment"
               name="Gestion des traitements"
               fileName="medical-treatment.svg"
             />
@@ -75,7 +81,11 @@ function Services() {
             }}
             transition={{ delay: 0.6, duration: 1 }}
           >
-            <Service name="Vaccination" fileName="syringe-icon.svg" />
+            <Service
+              id="syringe-icon"
+              name="Vaccination"
+              fileName="syringe-icon.svg"
+            />
           </motion.div>
 
           <motion.div
@@ -87,7 +97,11 @@ function Services() {
             }}
             transition={{ delay: 0.8, duration: 1 }}
           >
-            <Service name="Pansements" fileName="injury-icon.svg" />
+            <Service
+              id="injury-icon"
+              name="Pansements"
+              fileName="injury-icon.svg"
+            />
           </motion.div>
 
           <motion.div
@@ -100,6 +114,7 @@ function Services() {
             transition={{ delay: 1, duration: 1 }}
           >
             <Service
+              id="medical-history-icon"
               name="Dossier de soins"
               fileName="medical-history-icon.svg"
             />
@@ -114,7 +129,11 @@ function Services() {
             }}
             transition={{ delay: 1.2, duration: 1 }}
           >
-            <Service name="Charte du patient" fileName="patient-charter.svg" />
+            <Service
+              id="patient-charter"
+              name="Charte du patient"
+              fileName="patient-charter.svg"
+            />
           </motion.div>
         </div>
         <Link to="/services">

@@ -31,7 +31,7 @@ function NursingCare() {
   }, [isInView, mainControls]);
 
   return (
-    <div className="max-w-[1048px]">
+    <div className="max-w-[1048px]" id="nurse-icon">
       <h2 className="mt-24 uppercase text-3xl font-semibold text-stone-700 text-center">
         Les soins infirmiers
       </h2>

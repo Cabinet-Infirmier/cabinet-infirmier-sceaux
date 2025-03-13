@@ -22,7 +22,7 @@ function Bandage() {
     }
   }, [isInView, mainControls]);
   return (
-    <div className="max-w-[1048px] mt-20">
+    <div className="max-w-[1048px] mt-20" id="injury-icon">
       <div className="mt-5">
         <div className="flex flex-col">
           <motion.div

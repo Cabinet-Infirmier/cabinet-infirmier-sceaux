@@ -4,7 +4,11 @@ export default function ServiceTitle({ title, icon, children }) {
   return (
     <div className={styles.container}>
       <div>
-        <img src={`/images/icons/${icon}.svg`} alt={`icon ${title}`} />
+        <img
+          id={icon}
+          src={`/images/icons/${icon}.png`}
+          alt={`icon ${title}`}
+        />
       </div>
       <div className={styles.titles}>
         <h3 className="uppercase text-left">{title}</h3>
