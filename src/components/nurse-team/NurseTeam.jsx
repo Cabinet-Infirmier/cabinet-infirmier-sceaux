@@ -13,9 +13,6 @@ function NurseTeam() {
         <Nurse name="Angelina" fileName="angelina.png" />
         <Nurse name="Angelina" fileName="angelina.png" />
       </ul>
-      <Link to="/contact">
-        <Button>Prendre RDV</Button>
-      </Link>
     </section>
   );
 }

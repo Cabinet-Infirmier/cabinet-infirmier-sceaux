@@ -19,7 +19,7 @@ function NursingCare() {
     "Injections sous cutané.",
     "Perfusions, injections intraveineuses périphériques et centrales.",
     "Soins de PAC, débranchement chimiothérapie.",
-    "Prise en charge patients diabétique (contrôle de la glycémie, injection insuNursingCareItemne, éducation).",
+    "Prise en charge patients diabétique (contrôle de la glycémie, injection insuline, éducation).",
     "Vaccins.",
     "Pose et ablation de sonde urinaire.",
   ];
@@ -36,7 +36,7 @@ function NursingCare() {
         Les soins infirmiers
       </h2>
       <div className="flex justify-center mt-1">
-        <Button onClick={() => navigate("/contact")}>Prendre RDV</Button>
+        <Button onClick={() => navigate("/contact")}>Nous Contacter</Button>
       </div>
 
       <div>
