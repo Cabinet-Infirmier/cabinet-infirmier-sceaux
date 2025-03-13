@@ -11,7 +11,18 @@ import { useEffect } from "react";
 export default function Services() {
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, []);
+    if (location.hash) {
+      // Scroll logic with a slight delay to ensure content is loaded
+      setTimeout(() => {
+        const targetElement = document.getElementById(
+          location.hash.substring(1)
+        );
+        if (targetElement) {
+          targetElement.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+      }, 100); // Delay ensures the element is rendered before scrolling
+    }
+  }, [location]);
 
   return (
     <div className="flex justify-center flex-col items-center max-w-[100vw] m-5">
