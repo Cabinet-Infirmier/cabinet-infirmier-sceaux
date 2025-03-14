@@ -2,7 +2,16 @@ import { useState } from "react";
 import styles from "./Carousel.module.css";
 
 export default function Carousel({ onClose }) {
-  const images = ["cabinet-1.jpg", "cabinet-2.jpg", "cabinet-3.jpg"];
+  const images = [
+    "cabinet-1.jpg",
+    "cabinet-2.jpg",
+    "cabinet-3.jpg",
+    "cabinet-4.jpg",
+    "cabinet-5.jpg",
+    "cabinet-6.jpg",
+    "cabinet-7.jpg",
+    "cabinet-8.jpg",
+  ];
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [selectedImage, setSelectedImage] = useState(images[0]);
   const [loaded, setLoaded] = useState(false);
