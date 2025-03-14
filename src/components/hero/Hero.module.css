@@ -44,9 +44,30 @@
   margin-top: 15px;
 }
 
-a {
+.contact a,
+.pinkTitle {
   text-decoration: none;
   color: #d78b8b;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.contact {
+  color: #d78b8b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 0.9em;
+}
+
+.contact > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact > div > a {
+  margin-left: 8px;
 }
 
 .containerImage {
@@ -127,26 +148,6 @@ a {
     opacity: 1;
     transform: scale(1);
   }
-}
-
-.contact {
-  color: #d78b8b;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-weight: bold;
-  margin-bottom: 20px;
-  font-size: 0.9em;
-  margin-top: 15px;
-}
-
-.contact > div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.contact > div > a {
-  margin-left: 8px;
 }
 
 @media (max-width: 1048px) {

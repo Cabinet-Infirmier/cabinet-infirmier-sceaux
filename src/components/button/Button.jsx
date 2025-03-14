@@ -7,7 +7,7 @@ function Button({ onClick, children, type = "primary" }) {
     secondary: base + " bg-[#c8c8c8] border-[#929191] ",
   };
   return (
-    <div className="h-[100px]">
+    <div>
       <button className={styles[type]} onClick={onClick}>
         {children}
       </button>

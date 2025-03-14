@@ -24,12 +24,17 @@ function Hero() {
           <div className={styles.address}>
             <p>
               <b>
-                18 square Robinson <br /> RDC gauche, interphone 15
+                18 square Robinson
                 <br />
                 92330 Sceaux
+                <br />
+                interphone 15,
+                <br />
+                RDC gauche
               </b>
             </p>
           </div>
+          <h4 className={styles.pinkTitle}>Pris de RDV par sms ou téléphone</h4>
           <div className={styles.contact}>
             <div>
               <Phone /> <a href="tel:0146600974">01.46.60.09.74</a>
@@ -40,7 +45,7 @@ function Hero() {
           </div>
 
           <NavLink to="/contact">
-            <Button onClick={() => navigate("/contact")}>Prendre RDV</Button>
+            <Button onClick={() => navigate("/contact")}>Nous Contacter</Button>
           </NavLink>
         </div>
       </div>

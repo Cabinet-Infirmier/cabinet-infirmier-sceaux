@@ -6,7 +6,7 @@ export default function SquareInfo() {
     <div className="flex justify-center items-center my-20 mx-2">
       <div className="flex flex-col justify-center items-center text-center max-w-screen-xl min-w-[12rem] rounded-lg shadow-lg p-8">
         <h3 className="text-[#d78b8b] text-xl">A PROPOS DE NOUS</h3>
-        <div className="text-[#575555]">
+        <div className="text-[#575555] mb-5">
           <p className="leading-8 mt-4">
             Le cabinet se compose de 4 infirmières diplômées d&apos;état
             réparties en 2 tournées. Il se trouve au sein du centre santé sport

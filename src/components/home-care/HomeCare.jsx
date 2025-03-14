@@ -6,7 +6,7 @@ import ServiceTitle from "../serviceTitle/ServiceTitle";
 function HomeCare() {
   const homeCareArray = [
     "Dans le cadre d’une situation de dépendance temporaire ou permanente BSI",
-    "Le rôle de l’infirmière dans le maintien des personnes dépendantes à domicile est crucial et multidimensionnel. Notre objectif principal est de garantir la sécurité de chaque patient tout en leur permettant de vivre chez eux, dans un environnement familier, le plus longtemps possible. Nous évaluons les besoins de la personne dépendante en matière de soins, d’hygiène, de nutrition, de mobilité et de sécurité. Cette évaluation permet de mettre en place un plan de soins personnalisé.",
+    "Le rôle de l’infirmière dans le maintien des personnes dépendantes à domicile est crucial et multidimensionnel. Notre objectif principal est de garantir la sécurité de chaque patient tout en leur permettant de vivre chez eux, dans un environnement familier, le plus longtemps possible. Nous évaluons les besoins de la personne dépendante en matière de soins, d’hygiène, de nutrition, de mobilité et de sécurité. Cette évaluation permet de mettre en place un plan de soins personnalisés.",
     "",
     "L’infirmiere prodigue des soins tels que la surveillance des constantes, la prise du traitement, pansements, bandes ou bas de contention, prise des compléments alimentaire, et la surveillance de l’apparition d’ œdèmes. Elle met en œuvre des mesures préventives pour éviter les complications liées à l’immobilité, comme les escarres, les infections, les troubles circulatoires et les chutes.",
     "",

@@ -13,7 +13,7 @@ export default function Contact() {
   }, []);
   return (
     <div className="flex justify-center items-center flex-col m-5">
-      <section className="flex justify-center flex-wrap gap-10 items-center m-5">
+      <section className="flex text-gray-600 justify-center flex-wrap gap-10 items-center m-5">
         <div>
           <ContactInfo />
           <Map />

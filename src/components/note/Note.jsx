@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import Button from "../button/Button";
 import NursingCareItem from "../nursing-care-item/NursingCareItem";
 
 function Note() {
@@ -11,9 +10,9 @@ function Note() {
 
   const navigate = useNavigate();
   return (
-    <div className="max-w-[1048px] mt-50">
+    <div className="max-w-[1048px] my-10">
       <div>
-        <h3>A SAVOIR</h3>
+        <h3 className="my-10">A SAVOIR</h3>
         <div className="flex justify-center xl:flex-nowrap flex-wrap-reverse">
           <div className="flex justify-end">
             <div className="flex-1">

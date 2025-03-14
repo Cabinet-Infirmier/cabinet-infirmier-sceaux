@@ -40,8 +40,8 @@ function Navbar() {
             to="/"
             className={({ isActive }) =>
               isActive
-                ? "text-lg text-[##e4bbbb] px-3 py-2"
-                : "text-lg text-gray-900 gray-50 rounded-lg px-3 py-2 hover:bg-gray-50"
+                ? "text-lg text-[#e4bbbb] px-3 py-2"
+                : "text-lg text-gray-600 gray-50 rounded-lg px-3 py-2 hover:bg-gray-50"
             }
           >
             Accueil
@@ -50,8 +50,8 @@ function Navbar() {
             to="/services"
             className={({ isActive }) =>
               isActive
-                ? "text-lg text-[##e4bbbb] px-3 py-2"
-                : "text-lg text-gray-900 gray-50 rounded-lg px-3 py-2 hover:bg-gray-50"
+                ? "text-lg text-[#e4bbbb] px-3 py-2"
+                : "text-lg text-gray-600 gray-50 rounded-lg px-3 py-2 hover:bg-gray-50"
             }
           >
             Services
@@ -60,8 +60,8 @@ function Navbar() {
             to="/questions-frequentes"
             className={({ isActive }) =>
               isActive
-                ? "text-lg text-[##e4bbbb] px-3 py-2"
-                : "text-lg text-gray-900 gray-50 rounded-lg px-3 py-2 hover:bg-gray-50"
+                ? "text-lg text-[#e4bbbb] px-3 py-2"
+                : "text-lg text-gray-600 gray-50 rounded-lg px-3 py-2 hover:bg-gray-50"
             }
           >
             Questions fréquentes
@@ -70,8 +70,8 @@ function Navbar() {
             to="/contact"
             className={({ isActive }) =>
               isActive
-                ? "text-lg text-[##e4bbbb] px-3 py-2"
-                : "text-lg text-gray-900 gray-50 rounded-lg px-3 py-2 hover:bg-gray-50"
+                ? "text-lg text-[#e4bbbb] px-3 py-2"
+                : "text-lg text-gray-600 gray-50 rounded-lg px-3 py-2 hover:bg-gray-50"
             }
           >
             Contact
@@ -102,8 +102,8 @@ function Navbar() {
                   to="/"
                   className={({ isActive }) =>
                     isActive
-                      ? "text-base text-[##e4bbbb] hover:bg-gray-50 block rounded-lg px-3 py-2"
-                      : "text-base text-gray-900 hover:bg-gray-50 block rounded-lg px-3 py-2"
+                      ? "text-base text-[#e4bbbb] hover:bg-gray-50 block rounded-lg px-3 py-2"
+                      : "text-base text-gray-500 hover:bg-gray-50 block rounded-lg px-3 py-2"
                   }
                   onClick={() => setMobileMenuOpen(false)}
                 >
@@ -114,8 +114,8 @@ function Navbar() {
                   to="/services"
                   className={({ isActive }) =>
                     isActive
-                      ? "text-base text-[##e4bbbb]  hover:bg-gray-50 block rounded-lg px-3 py-2"
-                      : "text-base text-gray-900 hover:bg-gray-50 block rounded-lg px-3 py-2"
+                      ? "text-base text-[#e4bbbb]  hover:bg-gray-50 block rounded-lg px-3 py-2"
+                      : "text-base text-gray-500 hover:bg-gray-50 block rounded-lg px-3 py-2"
                   }
                   onClick={() => setMobileMenuOpen(false)}
                 >
@@ -125,8 +125,8 @@ function Navbar() {
                   to="/questions-frequentes"
                   className={({ isActive }) =>
                     isActive
-                      ? "text-base  text-[##e4bbbb]   hover:bg-gray-50 block rounded-lg px-3 py-2 "
-                      : "text-base text-gray-900 hover:bg-gray-50 block rounded-lg px-3 py-2"
+                      ? "text-base  text-[#e4bbbb]   hover:bg-gray-50 block rounded-lg px-3 py-2 "
+                      : "text-base text-gray-500 hover:bg-gray-50 block rounded-lg px-3 py-2"
                   }
                   onClick={() => setMobileMenuOpen(false)}
                 >
@@ -136,8 +136,8 @@ function Navbar() {
                   to="/contact"
                   className={({ isActive }) =>
                     isActive
-                      ? "text-base text-[##e4bbbb]   hover:bg-gray-50 block rounded-lg px-3 py-2 "
-                      : "text-base text-gray-900 hover:bg-gray-50 block rounded-lg px-3 py-2"
+                      ? "text-base text-[#e4bbbb]  hover:bg-gray-50 block rounded-lg px-3 py-2 "
+                      : "text-base text-gray-500 hover:bg-gray-50 block rounded-lg px-3 py-2"
                   }
                   onClick={() => setMobileMenuOpen(false)}
                 >

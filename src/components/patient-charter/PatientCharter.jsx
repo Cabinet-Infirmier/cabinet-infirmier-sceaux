@@ -117,7 +117,7 @@ function PatientCharter() {
           )}
           <div className="flex justify-center mt-4">
             <Button
-              type="secondary"
+              type={isRightsOpen ? "secondary" : "primary"}
               onClick={() => setIsRightsOpen((prev) => !prev)}
             >
               {isRightsOpen ? "Réduire" : "Lire la suite"}
@@ -174,7 +174,7 @@ function PatientCharter() {
           )}
           <div className="flex justify-center mt-4">
             <Button
-              type="secondary"
+              type={isDutiesOpen ? "secondary" : "primary"}
               onClick={() => setIsDutiesOpen((prev) => !prev)}
             >
               {isDutiesOpen ? "Réduire" : "Lire la suite"}

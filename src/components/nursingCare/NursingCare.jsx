@@ -16,10 +16,10 @@ function NursingCare() {
     "Pansements plaies, ulcères, escarres, greffe, amputation, brulure, nécessitant une irrigation ou un méchage.",
     "Soins post opératoires (ablation fils et agrafes, pansements,surveillance).",
     "Injections Intra musculaire.",
-    "Injections sous cutané.",
+    "Injections sous-cutanée.",
     "Perfusions, injections intraveineuses périphériques et centrales.",
     "Soins de PAC, débranchement chimiothérapie.",
-    "Prise en charge patients diabétique (contrôle de la glycémie, injection insuline, éducation).",
+    "Prise en charge patients diabétiques (contrôle de la glycémie, injection insuline, éducation).",
     "Vaccins.",
     "Pose et ablation de sonde urinaire.",
   ];
@@ -32,7 +32,7 @@ function NursingCare() {
 
   return (
     <div className="max-w-[1048px]" id="nurse-icon">
-      <h2 className="mt-24 uppercase text-3xl font-semibold text-stone-700 text-center">
+      <h2 className="mt-24 uppercase text-3xl font-semibold text-stone-600 text-center">
         Les soins infirmiers
       </h2>
       <div className="flex justify-center mt-1">
