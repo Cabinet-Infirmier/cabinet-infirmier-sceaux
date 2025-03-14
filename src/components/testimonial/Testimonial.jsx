@@ -12,18 +12,40 @@ const TestimonialsImage = [
 
 export default function Testimonial() {
   var settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 10000,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+        },
+      },
+      {
+        breakpoint: 10024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
     <div className="py-14 mb-10">
       <div className="container">
-        <div className="uppercase text-[#575555] uppercase text-xl text-center font-bold mb-10">
-          <h2>Témoignages</h2>
+        <div className="">
+          <h2 className="uppercase text-[#575555] uppercase text-center text-xl font-bold mb-10">
+            Témoignages
+          </h2>
         </div>
         <div>
           <Slider {...settings}>
