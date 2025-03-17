@@ -15,7 +15,7 @@ function NursingCare() {
   const nursingCareArray = [
     "Pansements plaies, ulcères, escarres, greffe, amputation, brulure, nécessitant une irrigation ou un méchage.",
     "Soins post opératoires (ablation fils et agrafes, pansements,surveillance).",
-    "Injections Intra musculaire.",
+    "Injections Intramusculaire.",
     "Injections sous-cutanée.",
     "Perfusions, injections intraveineuses périphériques et centrales.",
     "Soins de PAC, débranchement chimiothérapie.",
