@@ -25,7 +25,6 @@ function UsefulInfo() {
           className="w-[60px] h-auto"
         />
         <h4 className="mt-2">PAIEMENTS ACCEPTÉS</h4>
-        <h4>Disponibles 7 jours sur 7.</h4>
         <h4 className="leading-[25px]">Espèces</h4>
         <h4 className="leading-[25px]">Chèque</h4>
       </div>
