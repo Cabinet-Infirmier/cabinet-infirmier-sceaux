@@ -34,7 +34,9 @@ function Hero() {
               </b>
             </p>
           </div>
-          <h4 className={styles.pinkTitle}>Pris de RDV par sms ou téléphone</h4>
+          <h4 className={styles.pinkTitle}>
+            Prise de RDV par sms ou téléphone
+          </h4>
           <div className={styles.contact}>
             <div>
               <Phone /> <a href="tel:0146600974">01.46.60.09.74</a>

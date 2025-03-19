@@ -25,6 +25,10 @@
   margin-bottom: 0.5rem;
 }
 
+.containerLogo p {
+  margin-top: 1rem;
+}
+
 .footer h3 {
   font-size: 1rem;
 }

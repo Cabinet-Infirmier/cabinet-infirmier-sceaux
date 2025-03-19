@@ -16,7 +16,6 @@ function Homepage() {
       <ServiceArea />
       <UsefulInfo />
       <NurseTeam />
-      <Testimonial />
       <Disclaimer />
     </>
   );

@@ -45,10 +45,10 @@ export default function MentionLegal() {
           3. Responsable de la publication
         </h2>
         <p>
-          <strong>Nom :</strong> [Maryel Navarro Martinez]
+          <strong>Nom :</strong> Maryel Navarro Martinez
         </p>
         <p>
-          <strong>Adresse e-mail :</strong> [maryel.navarromtz@gmail.com]
+          <strong>Adresse e-mail :</strong> maryel.navarromtz@gmail.com
         </p>
       </section>
 
@@ -68,13 +68,13 @@ export default function MentionLegal() {
         </p>
       </section>
 
-      <section className="mb-6">
+      {/* <section className="mb-6">
         <h2 className="text-xl font-semibold">6. Cookies</h2>
         <p>
           Ce site utilise des cookies pour améliorer l&apos;expérience
           utilisateur.
         </p>
-      </section>
+      </section> */}
 
       <section className="mb-6">
         <h2 className="text-xl font-semibold">

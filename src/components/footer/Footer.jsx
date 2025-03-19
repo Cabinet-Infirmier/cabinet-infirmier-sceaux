@@ -15,6 +15,7 @@ export default function Footer() {
         <NavLink to="/contact">
           <Button>Contacter</Button>
         </NavLink>
+        <p> Maryel Navarro & Cédric Phung © 2025. Tous droits réservés. </p>
       </section>
       <section className={styles.containerMiddle}>
         <div className={styles.containerHour}>
