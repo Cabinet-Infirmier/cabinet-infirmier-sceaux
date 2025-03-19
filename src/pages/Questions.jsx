@@ -21,9 +21,9 @@ const questions = [
 
 function Questions() {
   return (
-    <div className="flex justify-center m-5">
-      <div className=" lg:w-[50%] sm:w-[80%] flex flex-col justify-start">
-        <h2 className=" text-[2.5em] text-stone-500 font-bold mb-5">
+    <div className="flex justify-center h-screen">
+      <div className=" lg:w-[50%] sm:w-[80%] flex flex-col justify-start mt-10">
+        <h2 className=" text-[2.5em] text-stone-500 font-bold mb-5 mt-2">
           Questions fréquentes
         </h2>
         <div className="divide-y divide-stone-200 text-stone-700 ">
