@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Block unnecessary files
+Disallow: /src/
+Disallow: /node_modules/
+Disallow: /public/
+
+# Specify important pages for better indexing
+Allow: /index.html
+Allow: /services
+Allow: /contact
+Allow: /questions-frequentes
+Allow: /mention-legales
+
+# Sitemap for improved crawling
+Sitemap: https://www.votresite.com/sitemap.xml
