@@ -9,10 +9,10 @@ function NurseTeam() {
         Infirmières au cabinet
       </h2>
       <ul className="flex justify-evenly w-full flex-wrap">
-        <Nurse name="Eva THOMINOT," fileName="photo-eva.png" />
         <Nurse name="Sandrine SAINT-JOANNIS" fileName="photo-sandrine.png" />
-        <Nurse name="Marion NOEL" fileName="photo-nurse.png" />
-        <Nurse name="Pauline PELTRET" fileName="photo-nurse.png" />
+        <Nurse name="Eva THOMINOT" fileName="photo-eva.png" />
+        <Nurse name="Marion NOEL" fileName="photo-marion.png" />
+        <Nurse name="Pauline PELTRET" fileName="photo-pauline.png" />
       </ul>
     </section>
   );
