@@ -4,7 +4,7 @@ const questions = [
   {
     question: "J’ai besoin d’une infirmière, comment prendre rendez-vous ?",
     reponse:
-      "Vous pouvez nous contacter par téléphone, SMS ou mail pour toute demande de soins (ou questions). Préciser votre nom, les soins, votre téléphone et votre adresse (soin à domicile) N’hésitez pas à nous laisser un message vocal ou SMS, car nous pouvons être en soins.",
+      "Vous pouvez nous contacter par téléphone, SMS ou mail pour toute demande de soins (ou questions). Préciser votre nom, les soins, votre téléphone et votre adresse (soin à domicile) N’hésitez pas à nous laisser un message vocal ou SMS, car nous pouvons être en soins. Nous conviendrons ensemble d'un créneau de passage.",
   },
   {
     question: "Quels sont les soins infirmiers non pris en charge ?",

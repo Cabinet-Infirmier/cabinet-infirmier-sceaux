@@ -36,7 +36,7 @@ function Vaccination() {
                 L’infirmière joue un rôle essentiel dans la mise en œuvre des
                 programmes de vaccination, contribuant ainsi à la santé publique
                 et à la prévention des maladies. Nous vaccinons sur prescription
-                médicale, sauf dans le cadre des campagnes anti-grippale et
+                médicale mais aussi dans le cadre des campagnes anti-grippale et
                 anti-covid.
               </p>
             </div>
