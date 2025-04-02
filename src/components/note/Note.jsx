@@ -3,7 +3,7 @@ import NursingCareItem from "../nursing-care-item/NursingCareItem";
 
 function Note() {
   const noteArray = [
-    "Certains soins ne sont pas pris en charge par la CPAM (prise de la tension, bandes ou bas de contention non accompagnée d’un pansement d’ulcère ou greffe cutanée…) s’ils ne rentrent pas dans le cadre d’une personne dépendante (BSI) ",
+    "Certains soins ne sont pas pris en charge par la CPAM (prise de la tension, pose de bandes ou bas de contention non accompagnée d’un pansement d’ulcère ou greffe cutanée…) s’ils ne rentrent pas dans le cadre d’une personne dépendante (BSI) ",
     "Avant le premier rendez-vous avec l’infirmière, pensez à récupérer le matériel nécessaire en pharmacie prescrit par votre médecin.",
     "L’infirmière est habilité à prescrire du matériel nécessaire pour la suite de vos soins (conformément à l’article du 20 mars 2018)",
   ];

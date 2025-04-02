@@ -8,7 +8,9 @@ export default function MentionLegal() {
         </p>
         <p>
           <strong>URL du site :</strong>{" "}
-          <a href="https://www.votresite.com">www.votresite.com</a>
+          <a href="https://www.cabinetinfirmier-sceaux.fr">
+            www.cabinetinfirmier-sceaux.fr
+          </a>
         </p>
         <p>
           <strong>Propriétaire :</strong> Cabinet d&apos;infirmières Sceaux
